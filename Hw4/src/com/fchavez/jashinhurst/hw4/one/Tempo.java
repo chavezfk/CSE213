@@ -1,4 +1,4 @@
-package com.fchavez.jashinhurst.one;
+package com.fchavez.jashinhurst.hw4.one;
 
 /**
  * <p>This class holds information about the beat speed. it

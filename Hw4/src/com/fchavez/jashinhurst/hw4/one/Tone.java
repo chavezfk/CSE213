@@ -1,4 +1,4 @@
-package com.fchavez.jashinhurst.one;
+package com.fchavez.jashinhurst.hw4.one;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;

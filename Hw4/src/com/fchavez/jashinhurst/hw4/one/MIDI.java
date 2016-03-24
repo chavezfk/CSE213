@@ -1,4 +1,4 @@
-package com.fchavez.jashinhurst.one;
+package com.fchavez.jashinhurst.hw4.one;
 /**
  * <p>This class holds information about a SPN note. It 
  * holds information such as the NoteValue and the MIDI number. 

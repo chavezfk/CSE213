@@ -1,4 +1,4 @@
-package com.fchavez.jashinhurst.one;
+package com.fchavez.jashinhurst.hw4.one;
 
 /**
  * A class to generate linear pcm data based on
