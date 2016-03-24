@@ -1,6 +1,8 @@
 package com.fchavez.jashinhurst.hw4.two;
 
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class WebReference extends Sources {
@@ -9,9 +11,20 @@ public class WebReference extends Sources {
 	URL url;
 	
 	public WebReference() {
-		
+		this.yearOfPublication = 0;
+		retrievalDate.set(0,0,0);
 	}
-	
+	public WebReference(int yearOfPublication, Date dateAccessed, String url){
+		this.yearOfPublication = yearOfPublication;
+		retrievalDate = new GregorianCalendar();
+		retrievalDate.setTime(dateAccessed);
+		try {
+			this.url = new URL(url);
+		} catch (MalformedURLException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}
 	public void printReference() {
 		for (int i = 0; i < author.size(); i++) {
 			if (author.get(i).middleName == null) {
