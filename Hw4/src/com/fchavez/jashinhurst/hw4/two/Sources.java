@@ -2,10 +2,25 @@ package com.fchavez.jashinhurst.hw4.two;
 
 import java.util.ArrayList;
 
+/**
+ * the main class for all of the references has a method for parsing strings of authors
+ * to place in the author class for easy printing and access
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ *
+ * @bugs none
+ * @todo none
+ */
 abstract public class Sources {
 	ArrayList<Author> author = new ArrayList<Author>();
 	String title;
 	
+	/**
+	 * parses formatted string to split several authors as well as first, middle, and last
+	 * names
+	 * @param authorString
+	 * @return author class with names defined
+	 */
 	public static ArrayList<Author> parseString(String authorString) {
 		ArrayList <Author> authorList = new ArrayList<Author>();
 		

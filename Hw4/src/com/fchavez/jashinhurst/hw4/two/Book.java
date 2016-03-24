@@ -1,5 +1,13 @@
 package com.fchavez.jashinhurst.hw4.two;
 
+/**
+ * class containing info and print method for a Book reference
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ * 
+ * @bugs none
+ * @todo none
+ */
 public class Book extends Sources{
 	int year;
 	String publisher;
@@ -7,11 +15,24 @@ public class Book extends Sources{
 	String publicationState;
 	int numberOfPages;
 	
+	/**
+	 * default constructor for class
+	 */
 	public Book() {
 		this.year = 0;
 		this.numberOfPages = 0;
 	}
 	
+	/**
+	 * constructor with all fields specified
+	 * @param authorString string containing author names
+	 * @param year year of publishing
+	 * @param title of book
+	 * @param publisher of book
+	 * @param publicationCity city of publishing
+	 * @param publicationState State of publishing
+	 * @param numberOfPages of book
+	 */
 	public Book(String authorString, int year, String title, String publisher, String publicationCity, String publicationState, int numberOfPages) {
 		this.author = parseString(authorString);
 		this.title = title;
@@ -22,6 +43,9 @@ public class Book extends Sources{
 		this.numberOfPages = numberOfPages;
 	}
 	
+	/**
+	 * prints reference in correct format
+	 */
 	public void printReference() {
 		for (int i = 0; i < author.size(); i++) {
 			if (author.get(i).middleName == null) {
