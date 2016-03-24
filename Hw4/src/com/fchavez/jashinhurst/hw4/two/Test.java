@@ -9,6 +9,8 @@ public class Test {
 		String TestStringTwo = "Joshua Ashinhurst and J T Ashinhurst";
 		String TestStringThree= "Joshua T Ashinhurst, J T Ashinhurst, J Todd Ashinhurst";
 		Book testBook = new Book(TestStringTwo, 2000, "title", "publisher", "publicationCity", "publicationState", 5000);
+		JournalArticle journal = new JournalArticle(TestStringTwo, 2000, "title", "journalName", 1, 1, 2);
+		BookChapter testBookChapter = new BookChapter(TestStringTwo, 2000, "title", "publisher", "publicationCity", "publicationState", 5000, TestStringThree, "chapterTitle", 1, 2);
 		GregorianCalendar date =  new GregorianCalendar(2016, 3, 12);
 		Newspaper testNews = new Newspaper("The Daily CS Major", date);
 		WebReference testWeb = new WebReference(2014, date.getTime(), "http://www.google.com/");
