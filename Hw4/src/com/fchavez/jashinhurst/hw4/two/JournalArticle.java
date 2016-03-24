@@ -27,13 +27,18 @@ public class JournalArticle extends Sources {
 	public void printReference() {
 		for (int i = 0; i < author.size(); i++) {
 			if (author.get(i).middleName == null) {
-				System.out.print(author.get(i).getLastName().toUpperCase() + ", " + this.author.get(i).getFirstName().toUpperCase());
+				System.out.print(author.get(i).getLastName().toUpperCase() + ", " + this.author.get(i).getFirstName().toUpperCase().charAt(0));
+			} else {
+				System.out.print(this.author.get(i).getLastName().toUpperCase() + ", " + this.author.get(i).getFirstName().toUpperCase().charAt(0) + ". " + this.author.get(i).getMiddleName().toUpperCase().charAt(0));
 			}
-			System.out.print(this.author.get(i).getLastName().toUpperCase() + ", " + this.author.get(i).getFirstName().toUpperCase() + " " + this.author.get(i).getMiddleName().toUpperCase());
-			if (i != author.size() - 1) {
-				System.out.print(" and ");
+			if (author.size() == 2 && i == 0) {
+				System.out.print(". and ");
+			} else if (i != author.size() - 1 && i != author.size() - 2 && author.size() != 2) {
+				System.out.print("., ");
+			} else if (i == author.size() - 2 && author.size() != 2) {
+				System.out.print("., and ");
 			}
 		}
-		System.out.print(". " + this.year + ". " + this.title + ". " + this.journalName + ", vol. " + this.volume + ". pp. " + this.beginPage + "-" + this.endPage +  "\n");
+		System.out.print(". " + this.year + ". " + this.title + ". " + this.journalName + ", vol. " + this.volume + ". pp. " + this.beginPage + "-" + this.endPage + "\n");
 	}
 }
