@@ -29,9 +29,13 @@ public class WebReference extends Sources {
 	}
 	
 	/**
-	 * constructor with fields specified with author
+	 * constructor of fields with author
+	 * @param authorString
 	 * @param yearOfPublication
-	 * @param dateAccessed
+	 * @param title
+	 * @param month
+	 * @param day
+	 * @param year
 	 * @param url
 	 */
 	public WebReference(String authorString, int yearOfPublication, String title, int month, int day, int year, String url){
@@ -48,9 +52,12 @@ public class WebReference extends Sources {
 	}
 	
 	/**
-	 * constructor with fields specified without author
+	 * constructor of fields without author
+	 * @param title
 	 * @param yearOfPublication
-	 * @param dateAccessed
+	 * @param month
+	 * @param day
+	 * @param year
 	 * @param url
 	 */
 	public WebReference(String title, int yearOfPublication, int month, int day, int year, String url){

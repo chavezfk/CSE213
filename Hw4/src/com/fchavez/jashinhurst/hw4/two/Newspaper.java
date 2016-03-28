@@ -18,8 +18,11 @@ public class Newspaper extends Sources{
 	/**
 	 * constructor with all fields specified
 	 * @param authorString
-	 * @param Title
-	 * @param datePublished
+	 * @param day
+	 * @param month
+	 * @param year
+	 * @param title
+	 * @param Newspaper
 	 */
 	public Newspaper(String authorString, int day, int month, int year, String title, String Newspaper){
 		this.author = parseString(authorString);
@@ -28,6 +31,9 @@ public class Newspaper extends Sources{
 		this.Newspaper = Newspaper;
 	}
 	
+	/**
+	 * prints reference in correct order
+	 */
 	public void printReference() {
 		Date retrievalDate1 = date.getTime();
 		SimpleDateFormat dateFormatter = new SimpleDateFormat("MMMM dd, yyyy");

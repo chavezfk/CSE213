@@ -19,7 +19,7 @@ abstract public class Sources {
 	 * parses formatted string to split several authors as well as first, middle, and last
 	 * names
 	 * @param authorString
-	 * @return author class with names defined
+	 * @return
 	 */
 	public static ArrayList<Author> parseString(String authorString) {
 		ArrayList <Author> authorList = new ArrayList<Author>();
