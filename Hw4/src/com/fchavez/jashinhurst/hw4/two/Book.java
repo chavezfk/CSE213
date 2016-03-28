@@ -6,7 +6,7 @@ package com.fchavez.jashinhurst.hw4.two;
  * @author Franz Chavez
  * 
  * @bugs none
- * @todo none
+ * @version 1.0
  */
 public class Book extends Sources{
 	int year;
@@ -61,6 +61,24 @@ public class Book extends Sources{
 				System.out.print("., and ");
 			}
 		}
-		System.out.print(". " + this.year + ". " + this.title + ". " + this.publisher + ", " + this.publicationCity + ", " + this.publicationState + ", " + this.numberOfPages + " pp." +  "\n");
+		System.out.print(". " + this.year + ". " + this.title + ". " + this.publisher + ", " + this.publicationCity + ", " + this.publicationState + ". " + this.numberOfPages + " pp." +  "\n");
+	}
+	
+	/**
+	 * prints object info in string
+	 */
+	@Override 
+	public String toString() {
+		String out = "Superclass: " + getClass().getSuperclass() + " \n";
+		out += this.getClass() + " Object {\n";
+		out += "  author: " + this.author + "\n";
+		out += "  year: " + this.year + "\n";
+		out += "  title: " + this.title + "\n";
+		out += "  publisher " + this.publisher + "\n";
+		out += "  publicationCity: " + this.publicationCity + "\n";
+		out += "  publicationState: " + this.publicationState + "\n";
+		out += "  numberOfPages: " + this.numberOfPages + "\n";
+		out += "}\n";
+		return out;
 	}
 }

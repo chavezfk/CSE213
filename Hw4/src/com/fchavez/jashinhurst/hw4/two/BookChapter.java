@@ -1,19 +1,44 @@
 package com.fchavez.jashinhurst.hw4.two;
 
 import java.util.ArrayList;
-
+/**
+ * class containing info for book chapter reference, contains all info in Book class
+ * as well as some additional fields
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ *
+ * @bugs none
+ * @version 1.0
+ */
 public class BookChapter extends Book {
 	ArrayList<Author> chapterAuthor = new ArrayList<Author>();
 	String chapterTitle;
 	int beginPage;
 	int endPage;
 	
+	/**
+	 * default constructor, sets to default values
+	 */
 	BookChapter() {
 		this.year = 0;
 		this.beginPage = 0;
 		this.endPage = 0;
 	}
 
+	/**
+	 * setter with all fields specified
+	 * @param authorString
+	 * @param year
+	 * @param title
+	 * @param publisher
+	 * @param publicationCity
+	 * @param publicationState
+	 * @param numberOfPages
+	 * @param chapterAuthorString
+	 * @param chapterTitle
+	 * @param beginPage
+	 * @param endPage
+	 */
 	BookChapter(String authorString, int year, String title, String publisher, String publicationCity, String publicationState, int numberOfPages, String chapterAuthorString, String chapterTitle, int beginPage, int endPage) {
 		this.author = parseString(authorString);
 		this.year = year;
@@ -28,6 +53,9 @@ public class BookChapter extends Book {
 		this.endPage = endPage;
 	}
 	
+	/**
+	 * prints the bibliography citation
+	 */
 	public void printReference() {
 		for (int i = 0; i < chapterAuthor.size(); i++) {
 			if (chapterAuthor.get(i).middleName == null) {
@@ -59,5 +87,27 @@ public class BookChapter extends Book {
 			}
 		}
 		System.out.print(", " + this.publisher + ", " + this.publicationCity + ", " + this.publicationState + ". pp. " + this.beginPage + "-" + this.endPage + ".\n");
+	}
+	
+	/**
+	 * prints object info in string
+	 */
+	@Override
+	public String toString() {
+		String out = "Superclass: " + getClass().getSuperclass() + " \n";
+		out += this.getClass() + " Object {\n";
+		out += "  author: " + this.author + "\n";
+		out += "  year: " + this.year + "\n";
+		out += "  title: " + this.title + "\n";
+		out += "  publisher " + this.publisher + "\n";
+		out += "  publicationCity: " + this.publicationCity + "\n";
+		out += "  publicationState: " + this.publicationState + "\n";
+		out += "  numberOfPages: " + this.numberOfPages + "\n";
+		out += "  chapterAuthor: " + this.chapterAuthor + " \n";
+		out += "  chapterTitle: " + this.chapterTitle + "\n";
+		out += "  beginPage: " + this.beginPage + "\n";
+		out += "  endPage: " + this.endPage + "\n";
+		out += "}\n";
+		return out;
 	}
 }
