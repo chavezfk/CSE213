@@ -21,11 +21,10 @@ public class Newspaper extends Sources{
 	 * @param Title
 	 * @param datePublished
 	 */
-	public Newspaper(String authorString, String title, GregorianCalendar datePublished, String Newspaper){
+	public Newspaper(String authorString, int day, int month, int year, String title, String Newspaper){
 		this.author = parseString(authorString);
 		this.title = title;
-		this.date = new GregorianCalendar();
-		this.date.setTime(datePublished.getTime());
+		this.date = new GregorianCalendar(year, month, day);
 		this.Newspaper = Newspaper;
 	}
 	

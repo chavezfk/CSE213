@@ -39,14 +39,13 @@ public class BookChapter extends Book {
 	 * @param beginPage
 	 * @param endPage
 	 */
-	BookChapter(String authorString, int year, String title, String publisher, String publicationCity, String publicationState, int numberOfPages, String chapterAuthorString, String chapterTitle, int beginPage, int endPage) {
+	BookChapter(String authorString, int year, String title, String chapterTitle, String chapterAuthorString, String publisher, String publicationCity, String publicationState, int beginPage, int endPage) {
 		this.author = parseString(authorString);
 		this.year = year;
 		this.title = title;
 		this.publisher = publisher;
 		this.publicationCity = publicationCity;
 		this.publicationState = publicationState;
-		this.numberOfPages = numberOfPages;
 		this.chapterAuthor = parseString(chapterAuthorString);
 		this.chapterTitle = chapterTitle;
 		this.beginPage = beginPage;

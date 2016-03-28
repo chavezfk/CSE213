@@ -34,12 +34,11 @@ public class WebReference extends Sources {
 	 * @param dateAccessed
 	 * @param url
 	 */
-	public WebReference(String authorString, String title, int yearOfPublication, Date dateAccessed, String url){
+	public WebReference(String authorString, int yearOfPublication, String title, int month, int day, int year, String url){
 		this.author = parseString(authorString);
 		this.title = title;
 		this.yearOfPublication = yearOfPublication;
-		retrievalDate = new GregorianCalendar();
-		retrievalDate.setTime(dateAccessed);
+		retrievalDate = new GregorianCalendar(year, month, day);
 		try {
 			this.url = new URL(url);
 		} catch (MalformedURLException e) {
@@ -54,12 +53,11 @@ public class WebReference extends Sources {
 	 * @param dateAccessed
 	 * @param url
 	 */
-	public WebReference(String title, int yearOfPublication, Date dateAccessed, String url){
+	public WebReference(String title, int yearOfPublication, int month, int day, int year, String url){
 		this.author = null;
 		this.title = title;
 		this.yearOfPublication = yearOfPublication;
-		retrievalDate = new GregorianCalendar();
-		retrievalDate.setTime(dateAccessed);
+		retrievalDate = new GregorianCalendar(year, month, day);
 		try {
 			this.url = new URL(url);
 		} catch (MalformedURLException e) {
