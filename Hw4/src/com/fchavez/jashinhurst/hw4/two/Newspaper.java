@@ -4,6 +4,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * holds and prints all of the info for the biblography page
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ *
+ *@version 1.0
+ *@bugs none
+ */
+
 public class Newspaper extends Sources{
 	GregorianCalendar date;
 	String Newspaper;

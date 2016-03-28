@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Franz Chavez
  *
  * @bugs none
- * @todo none
+ * @version 1.0
  */
 abstract public class Sources {
 	ArrayList<Author> author = new ArrayList<Author>();
