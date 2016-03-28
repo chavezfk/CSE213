@@ -9,8 +9,8 @@ import java.util.GregorianCalendar;
  * @author Joshua Ashinhurst
  * @author Franz Chavez
  *
- *@version 1.0
- *@bugs none
+ * @version 1.0
+ * @bugs none
  */
 
 public class Newspaper extends Sources{
