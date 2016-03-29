@@ -1,7 +1,12 @@
 package com.fchavez.jashinhurst.hw4.two;
-
-import java.util.GregorianCalendar;
-
+/**
+ * executes given method calls from Dr. Rezgui
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ * 
+ * @bugs none
+ * @version 1.0
+ */
 public class Test {
 
 	public static void main(String args[]) {	
