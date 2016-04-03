@@ -8,7 +8,7 @@ package com.fchavez.jashinhurst.hw4.two;
  * @bugs none
  * @version 1.0
  */
-public class Book extends Sources{
+public class Book extends Sources implements Comparator<Book>{
 	int year;
 	String publisher;
 	String publicationCity;
