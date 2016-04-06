@@ -1,8 +1,16 @@
 package com.fchavez.jashinhurst.hw6.two;
 
 import java.io.*;
-import java.util.*;
-
+/**
+ * generates KML file for google earth given a set of coordinates
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ * 
+ * @bugs none
+ * @todo none
+ * @version 1.0
+ *
+ */
 public class KMLGenerator {
 	public static void main(String args[]) {
 		FileWriter fos = null;
@@ -40,6 +48,7 @@ public class KMLGenerator {
 				write += "      </Point>\n   </Placemark>\n";
 				pw.print(write);
 				System.out.print(write);
+				i++;
 			}
 			pw.print(bot);
 			System.out.print(bot);
