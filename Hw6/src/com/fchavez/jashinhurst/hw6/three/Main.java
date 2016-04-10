@@ -73,7 +73,7 @@ public class Main {
 			try {
 				for(int count = 0; count < elements.size(); count++){
 					e = (Element)oIn.readObject();
-					pout.write(e.getName() + "\n");
+					pout.write(e.toString());
 				}
 			} catch (ClassNotFoundException e1) {
 				// TODO Auto-generated catch block

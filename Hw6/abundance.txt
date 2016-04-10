@@ -1,101 +1,1111 @@
-Technetium
-Promethium
-Astatine
-Radon
-Francium
-Neptunium
-Plutonium
-Americium
-Curium
-Berkelium
-Californium
-Einsteinium
-Fermium
-Mendelevium
-Polonium
-Actinium
-Protactinium
-Xenon
-Krypton
-Radium
-Neon
-Rhodium
-Rhenium
-Iridium
-Tellurium
-Helium
-Ruthenium
-Osmium
-Platinum
-Gold
-Palladium
-Argon
-Selenium
-Silver
-Indium
-Cadmium
-Thulium
-Bismuth
-Iodine
-Mercury
-Lutetium
-Terbium
-Antimony
-Europium
-Holmium
-Bromine
-Tantalium
-Erbium
-Ytterbium
-Boron
-Thallium
-Uranium
-Dyprosium
-Hafnium
-Scandium
-Arsenic
-Praesodymium
-Beryllium
-Gadolinium
-Samarium
-Germanium
-Cesium
-Thorium
-Gallium
-Molybdenum
-Lead
-Lanthanum
-Cobalt
-Neodymium
-Niobium
-Yttrium
-Tin
-Cerium
-Nitrogen
-Lithium
-Wolfram
-Copper
-Nickel
-Zinc
-Vanadium
-Chromium
-Zirconium
-Barium
-Strontium
-Rubidium
-Chlorine
-Carbon
-Sulfur
-Fluorine
-Manganese
-Phosphorus
-Hydrogen
-Titanium
-Magnesium
-Potassium
-Sodium
-Calcium
-Iron
-Aluminum
-Silicon
-Oxygen
+Name:Technetium
+Symbol: Tc
+Order Number: 43
+R: 5
+C: 7
+Atomic Weight: 99.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Promethium
+Symbol: Pm
+Order Number: 61
+R: 7
+C: 7
+Atomic Weight: 145.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Astatine
+Symbol: At
+Order Number: 85
+R: 8
+C: 17
+Atomic Weight: 210.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Radon
+Symbol: Rn
+Order Number: 86
+R: 8
+C: 18
+Atomic Weight: 222.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Francium
+Symbol: Fr
+Order Number: 87
+R: 9
+C: 1
+Atomic Weight: 223.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Neptunium
+Symbol: Np
+Order Number: 93
+R: 10
+C: 7
+Atomic Weight: 237.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Plutonium
+Symbol: Pu
+Order Number: 94
+R: 10
+C: 8
+Atomic Weight: 242.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Americium
+Symbol: Am
+Order Number: 95
+R: 10
+C: 9
+Atomic Weight: 243.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Curium
+Symbol: Cm
+Order Number: 96
+R: 10
+C: 10
+Atomic Weight: 243.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Berkelium
+Symbol: Bk
+Order Number: 97
+R: 10
+C: 11
+Atomic Weight: 245.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Californium
+Symbol: Cf
+Order Number: 98
+R: 10
+C: 12
+Atomic Weight: 246.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Einsteinium
+Symbol: E
+Order Number: 99
+R: 10
+C: 13
+Atomic Weight: -999.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Fermium
+Symbol: Fm
+Order Number: 100
+R: 10
+C: 14
+Atomic Weight: -999.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Mendelevium
+Symbol: Mv
+Order Number: 101
+R: 10
+C: 15
+Atomic Weight: -999.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: -999.0
+Coefficent of Resistance: -999.0
+
+Name:Polonium
+Symbol: Po
+Order Number: 84
+R: 8
+C: 16
+Atomic Weight: 210.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: 3.0E-10
+Coefficent of Resistance: -999.0
+
+Name:Actinium
+Symbol: Ac
+Order Number: 89
+R: 9
+C: 3
+Atomic Weight: 227.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: 3.0E-10
+Coefficent of Resistance: -999.0
+
+Name:Protactinium
+Symbol: Pa
+Order Number: 91
+R: 10
+C: 5
+Atomic Weight: 231.0
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: 8.0E-7
+Coefficent of Resistance: -999.0
+
+Name:Xenon
+Symbol: Xe
+Order Number: 54
+R: 5
+C: 18
+Atomic Weight: 131.3
+Density: -999.0
+Diameter: 4.4
+Terrestrial Abundance: 1.2E-6
+Coefficent of Resistance: -999.0
+
+Name:Krypton
+Symbol: Kr
+Order Number: 36
+R: 4
+C: 18
+Atomic Weight: 83.8
+Density: 3.4
+Diameter: 4.0
+Terrestrial Abundance: 9.8E-6
+Coefficent of Resistance: -999.0
+
+Name:Radium
+Symbol: Ra
+Order Number: 88
+R: 9
+C: 2
+Atomic Weight: 226.05
+Density: 5.0
+Diameter: -999.0
+Terrestrial Abundance: 1.3E-5
+Coefficent of Resistance: -999.0
+
+Name:Neon
+Symbol: Ne
+Order Number: 10
+R: 2
+C: 18
+Atomic Weight: 20.183
+Density: 1.204
+Diameter: 3.2
+Terrestrial Abundance: 7.0E-5
+Coefficent of Resistance: -999.0
+
+Name:Rhodium
+Symbol: Rh
+Order Number: 45
+R: 5
+C: 9
+Atomic Weight: 102.91
+Density: 12.44
+Diameter: 2.7
+Terrestrial Abundance: 0.001
+Coefficent of Resistance: 5.11
+
+Name:Rhenium
+Symbol: Re
+Order Number: 75
+R: 8
+C: 7
+Atomic Weight: 186.31
+Density: 20.53
+Diameter: 2.75
+Terrestrial Abundance: 0.001
+Coefficent of Resistance: 18.9
+
+Name:Iridium
+Symbol: Ir
+Order Number: 77
+R: 8
+C: 9
+Atomic Weight: 192.2
+Density: 22.42
+Diameter: 2.709
+Terrestrial Abundance: 0.001
+Coefficent of Resistance: 6.1
+
+Name:Tellurium
+Symbol: Te
+Order Number: 52
+R: 5
+C: 16
+Atomic Weight: 127.61
+Density: 6.25
+Diameter: 2.9
+Terrestrial Abundance: 0.002
+Coefficent of Resistance: -999.0
+
+Name:Helium
+Symbol: He
+Order Number: 2
+R: 1
+C: 18
+Atomic Weight: 4.003
+Density: 0.19
+Diameter: -999.0
+Terrestrial Abundance: 0.003
+Coefficent of Resistance: -999.0
+
+Name:Ruthenium
+Symbol: Ru
+Order Number: 44
+R: 5
+C: 8
+Atomic Weight: 101.1
+Density: 12.1
+Diameter: 2.67
+Terrestrial Abundance: 0.004
+Coefficent of Resistance: 7.64
+
+Name:Osmium
+Symbol: Os
+Order Number: 76
+R: 8
+C: 8
+Atomic Weight: 190.2
+Density: 22.5
+Diameter: 2.7
+Terrestrial Abundance: 0.005
+Coefficent of Resistance: 9.5
+
+Name:Platinum
+Symbol: Pt
+Order Number: 78
+R: 8
+C: 10
+Atomic Weight: 195.23
+Density: 21.27
+Diameter: 2.769
+Terrestrial Abundance: 0.005
+Coefficent of Resistance: 9.83
+
+Name:Gold
+Symbol: Au
+Order Number: 79
+R: 8
+C: 11
+Atomic Weight: 197.0
+Density: 18.88
+Diameter: 2.878
+Terrestrial Abundance: 0.005
+Coefficent of Resistance: 2.44
+
+Name:Palladium
+Symbol: Pd
+Order Number: 46
+R: 5
+C: 10
+Atomic Weight: 106.7
+Density: 12.16
+Diameter: 2.745
+Terrestrial Abundance: 0.01
+Coefficent of Resistance: 10.21
+
+Name:Argon
+Symbol: A
+Order Number: 18
+R: 3
+C: 18
+Atomic Weight: 39.944
+Density: 1.65
+Diameter: 3.82
+Terrestrial Abundance: 0.04
+Coefficent of Resistance: -999.0
+
+Name:Selenium
+Symbol: Se
+Order Number: 34
+R: 4
+C: 16
+Atomic Weight: 78.96
+Density: 4.82
+Diameter: 2.32
+Terrestrial Abundance: 0.09
+Coefficent of Resistance: -999.0
+
+Name:Silver
+Symbol: Ag
+Order Number: 47
+R: 5
+C: 11
+Atomic Weight: 107.88
+Density: 10.492
+Diameter: 2.883
+Terrestrial Abundance: 0.1
+Coefficent of Resistance: 1.468
+
+Name:Indium
+Symbol: In
+Order Number: 49
+R: 5
+C: 13
+Atomic Weight: 114.76
+Density: 7.28
+Diameter: 3.14
+Terrestrial Abundance: 0.1
+Coefficent of Resistance: 8.37
+
+Name:Cadmium
+Symbol: Cd
+Order Number: 48
+R: 5
+C: 12
+Atomic Weight: 112.41
+Density: 8.65
+Diameter: 3.042
+Terrestrial Abundance: 0.15
+Coefficent of Resistance: 7.54
+
+Name:Thulium
+Symbol: Tm
+Order Number: 69
+R: 7
+C: 15
+Atomic Weight: 168.94
+Density: -999.0
+Diameter: 3.48
+Terrestrial Abundance: 0.2
+Coefficent of Resistance: -999.0
+
+Name:Bismuth
+Symbol: Bi
+Order Number: 83
+R: 8
+C: 15
+Atomic Weight: 209.0
+Density: 9.86
+Diameter: 3.64
+Terrestrial Abundance: 0.2
+Coefficent of Resistance: 119.0
+
+Name:Iodine
+Symbol: I
+Order Number: 53
+R: 5
+C: 17
+Atomic Weight: 126.91
+Density: 4.94
+Diameter: 2.7
+Terrestrial Abundance: 0.3
+Coefficent of Resistance: -999.0
+
+Name:Mercury
+Symbol: Hg
+Order Number: 80
+R: 8
+C: 12
+Atomic Weight: 200.61
+Density: 14.193
+Diameter: 3.1
+Terrestrial Abundance: 0.5
+Coefficent of Resistance: 95.783
+
+Name:Lutetium
+Symbol: Lu
+Order Number: 71
+R: 7
+C: 17
+Atomic Weight: 174.99
+Density: -999.0
+Diameter: 3.47
+Terrestrial Abundance: 0.75
+Coefficent of Resistance: -999.0
+
+Name:Terbium
+Symbol: Tb
+Order Number: 65
+R: 7
+C: 11
+Atomic Weight: 158.93
+Density: -999.0
+Diameter: 3.54
+Terrestrial Abundance: 0.91
+Coefficent of Resistance: -999.0
+
+Name:Antimony
+Symbol: Sb
+Order Number: 51
+R: 5
+C: 15
+Atomic Weight: 121.76
+Density: 6.62
+Diameter: 3.228
+Terrestrial Abundance: 1.0
+Coefficent of Resistance: 39.1
+
+Name:Europium
+Symbol: Eu
+Order Number: 63
+R: 7
+C: 9
+Atomic Weight: 152.0
+Density: -999.0
+Diameter: 4.08
+Terrestrial Abundance: 1.06
+Coefficent of Resistance: -999.0
+
+Name:Holmium
+Symbol: Ho
+Order Number: 67
+R: 7
+C: 13
+Atomic Weight: 164.94
+Density: -999.0
+Diameter: 3.52
+Terrestrial Abundance: 1.15
+Coefficent of Resistance: -999.0
+
+Name:Bromine
+Symbol: Br
+Order Number: 35
+R: 4
+C: 17
+Atomic Weight: 79.916
+Density: 4.2
+Diameter: 2.26
+Terrestrial Abundance: 1.62
+Coefficent of Resistance: -999.0
+
+Name:Tantalium
+Symbol: Ta
+Order Number: 73
+R: 8
+C: 5
+Atomic Weight: 180.95
+Density: 16.6
+Diameter: 2.94
+Terrestrial Abundance: 2.1
+Coefficent of Resistance: 15.5
+
+Name:Erbium
+Symbol: Er
+Order Number: 68
+R: 7
+C: 14
+Atomic Weight: 167.2
+Density: 4.77
+Diameter: 3.5
+Terrestrial Abundance: 2.47
+Coefficent of Resistance: -999.0
+
+Name:Ytterbium
+Symbol: Yb
+Order Number: 70
+R: 7
+C: 16
+Atomic Weight: 173.04
+Density: -999.0
+Diameter: 3.87
+Terrestrial Abundance: 2.66
+Coefficent of Resistance: -999.0
+
+Name:Boron
+Symbol: B
+Order Number: 5
+R: 2
+C: 13
+Atomic Weight: 10.82
+Density: 2.535
+Diameter: -999.0
+Terrestrial Abundance: 3.0
+Coefficent of Resistance: -999.0
+
+Name:Thallium
+Symbol: Tl
+Order Number: 81
+R: 8
+C: 13
+Atomic Weight: 204.39
+Density: 11.86
+Diameter: 3.42
+Terrestrial Abundance: 3.0
+Coefficent of Resistance: 17.6
+
+Name:Uranium
+Symbol: U
+Order Number: 92
+R: 10
+C: 6
+Atomic Weight: 238.07
+Density: 18.7
+Diameter: -999.0
+Terrestrial Abundance: 4.0
+Coefficent of Resistance: 29.0
+
+Name:Dyprosium
+Symbol: Dy
+Order Number: 66
+R: 7
+C: 12
+Atomic Weight: 162.46
+Density: -999.0
+Diameter: 3.54
+Terrestrial Abundance: 4.47
+Coefficent of Resistance: -999.0
+
+Name:Hafnium
+Symbol: Hf
+Order Number: 72
+R: 8
+C: 4
+Atomic Weight: 178.6
+Density: 11.3
+Diameter: 3.17
+Terrestrial Abundance: 4.5
+Coefficent of Resistance: 32.1
+
+Name:Scandium
+Symbol: Sc
+Order Number: 21
+R: 4
+C: 3
+Atomic Weight: 44.96
+Density: 3.02
+Diameter: 3.2
+Terrestrial Abundance: 5.0
+Coefficent of Resistance: -999.0
+
+Name:Arsenic
+Symbol: As
+Order Number: 33
+R: 4
+C: 15
+Atomic Weight: 74.91
+Density: 5.73
+Diameter: 2.5
+Terrestrial Abundance: 5.0
+Coefficent of Resistance: 35.0
+
+Name:Praesodymium
+Symbol: Pr
+Order Number: 59
+R: 7
+C: 5
+Atomic Weight: 140.92
+Density: 6.48
+Diameter: 3.65
+Terrestrial Abundance: 5.53
+Coefficent of Resistance: -999.0
+
+Name:Beryllium
+Symbol: Be
+Order Number: 4
+R: 2
+C: 2
+Atomic Weight: 9.013
+Density: 1.85
+Diameter: 2.25
+Terrestrial Abundance: 6.0
+Coefficent of Resistance: 10.1
+
+Name:Gadolinium
+Symbol: Gd
+Order Number: 64
+R: 7
+C: 10
+Atomic Weight: 156.9
+Density: -999.0
+Diameter: 3.59
+Terrestrial Abundance: 6.36
+Coefficent of Resistance: -999.0
+
+Name:Samarium
+Symbol: Sm
+Order Number: 62
+R: 7
+C: 8
+Atomic Weight: 150.43
+Density: 7.75
+Diameter: -999.0
+Terrestrial Abundance: 6.47
+Coefficent of Resistance: -999.0
+
+Name:Germanium
+Symbol: Ge
+Order Number: 32
+R: 4
+C: 14
+Atomic Weight: 72.6
+Density: 5.46
+Diameter: 2.788
+Terrestrial Abundance: 7.0
+Coefficent of Resistance: -999.0
+
+Name:Cesium
+Symbol: Cs
+Order Number: 55
+R: 6
+C: 1
+Atomic Weight: 132.91
+Density: 1.873
+Diameter: 5.4
+Terrestrial Abundance: 7.0
+Coefficent of Resistance: 19.0
+
+Name:Thorium
+Symbol: Th
+Order Number: 90
+R: 10
+C: 4
+Atomic Weight: 232.05
+Density: -999.0
+Diameter: -999.0
+Terrestrial Abundance: 11.5
+Coefficent of Resistance: 18.0
+
+Name:Gallium
+Symbol: Ga
+Order Number: 31
+R: 4
+C: 13
+Atomic Weight: 69.72
+Density: 5.93
+Diameter: 2.7
+Terrestrial Abundance: 15.0
+Coefficent of Resistance: 53.0
+
+Name:Molybdenum
+Symbol: Mo
+Order Number: 42
+R: 5
+C: 6
+Atomic Weight: 95.95
+Density: 9.01
+Diameter: 2.8
+Terrestrial Abundance: 15.0
+Coefficent of Resistance: 5.14
+
+Name:Lead
+Symbol: Pb
+Order Number: 82
+R: 8
+C: 14
+Atomic Weight: 207.21
+Density: 11.48
+Diameter: 3.49
+Terrestrial Abundance: 16.0
+Coefficent of Resistance: 19.8
+
+Name:Lanthanum
+Symbol: La
+Order Number: 57
+R: 6
+C: 3
+Atomic Weight: 138.92
+Density: 6.15
+Diameter: 3.741
+Terrestrial Abundance: 18.3
+Coefficent of Resistance: 57.6
+
+Name:Cobalt
+Symbol: Co
+Order Number: 27
+R: 4
+C: 9
+Atomic Weight: 58.94
+Density: 8.71
+Diameter: 2.5
+Terrestrial Abundance: 23.0
+Coefficent of Resistance: 9.7
+
+Name:Neodymium
+Symbol: Nd
+Order Number: 60
+R: 7
+C: 6
+Atomic Weight: 144.27
+Density: 7.0
+Diameter: 3.63
+Terrestrial Abundance: 23.9
+Coefficent of Resistance: -999.0
+
+Name:Niobium
+Symbol: Nb
+Order Number: 41
+R: 5
+C: 5
+Atomic Weight: 92.91
+Density: -999.0
+Diameter: 2.94
+Terrestrial Abundance: 24.0
+Coefficent of Resistance: 21.0
+
+Name:Yttrium
+Symbol: Y
+Order Number: 39
+R: 5
+C: 3
+Atomic Weight: 88.92
+Density: 3.8
+Diameter: 3.62
+Terrestrial Abundance: 28.1
+Coefficent of Resistance: -999.0
+
+Name:Tin
+Symbol: Sn
+Order Number: 50
+R: 5
+C: 14
+Atomic Weight: 118.7
+Density: 7.29
+Diameter: 3.164
+Terrestrial Abundance: 40.0
+Coefficent of Resistance: 11.5
+
+Name:Cerium
+Symbol: Ce
+Order Number: 58
+R: 7
+C: 4
+Atomic Weight: 140.13
+Density: 6.73
+Diameter: 3.64
+Terrestrial Abundance: 46.1
+Coefficent of Resistance: -999.0
+
+Name:Nitrogen
+Symbol: N
+Order Number: 7
+R: 2
+C: 15
+Atomic Weight: 14.008
+Density: 1.14
+Diameter: 1.06
+Terrestrial Abundance: 46.3
+Coefficent of Resistance: -999.0
+
+Name:Lithium
+Symbol: Li
+Order Number: 3
+R: 1
+C: 2
+Atomic Weight: 6.94
+Density: 0.534
+Diameter: 3.13
+Terrestrial Abundance: 65.0
+Coefficent of Resistance: 8.55
+
+Name:Wolfram
+Symbol: W
+Order Number: 74
+R: 8
+C: 6
+Atomic Weight: 183.92
+Density: -999.0
+Diameter: 2.82
+Terrestrial Abundance: 69.0
+Coefficent of Resistance: -999.0
+
+Name:Copper
+Symbol: Cu
+Order Number: 29
+R: 4
+C: 11
+Atomic Weight: 63.54
+Density: 8.933
+Diameter: 2.551
+Terrestrial Abundance: 70.0
+Coefficent of Resistance: 1.692
+
+Name:Nickel
+Symbol: Ni
+Order Number: 28
+R: 4
+C: 10
+Atomic Weight: 58.69
+Density: 8.8
+Diameter: 2.49
+Terrestrial Abundance: 80.0
+Coefficent of Resistance: 7.236
+
+Name:Zinc
+Symbol: Zn
+Order Number: 30
+R: 4
+C: 12
+Atomic Weight: 65.38
+Density: 4.32
+Diameter: 2.748
+Terrestrial Abundance: 132.0
+Coefficent of Resistance: 5.75
+
+Name:Vanadium
+Symbol: V
+Order Number: 23
+R: 4
+C: 5
+Atomic Weight: 50.95
+Density: 5.87
+Diameter: 2.71
+Terrestrial Abundance: 150.0
+Coefficent of Resistance: 58.5
+
+Name:Chromium
+Symbol: Cr
+Order Number: 24
+R: 4
+C: 6
+Atomic Weight: 52.01
+Density: 7.14
+Diameter: 2.57
+Terrestrial Abundance: 200.0
+Coefficent of Resistance: 2.6
+
+Name:Zirconium
+Symbol: Zr
+Order Number: 40
+R: 5
+C: 4
+Atomic Weight: 91.22
+Density: 6.44
+Diameter: 3.19
+Terrestrial Abundance: 220.0
+Coefficent of Resistance: 41.0
+
+Name:Barium
+Symbol: Ba
+Order Number: 56
+R: 6
+C: 2
+Atomic Weight: 137.36
+Density: 3.5
+Diameter: 4.48
+Terrestrial Abundance: 250.0
+Coefficent of Resistance: 60.0
+
+Name:Strontium
+Symbol: Sr
+Order Number: 38
+R: 5
+C: 2
+Atomic Weight: 87.63
+Density: 2.6
+Diameter: 4.29
+Terrestrial Abundance: 300.0
+Coefficent of Resistance: 24.8
+
+Name:Rubidium
+Symbol: Rb
+Order Number: 37
+R: 5
+C: 1
+Atomic Weight: 85.48
+Density: 1.53
+Diameter: 5.02
+Terrestrial Abundance: 310.0
+Coefficent of Resistance: 11.6
+
+Name:Chlorine
+Symbol: Cl
+Order Number: 17
+R: 3
+C: 17
+Atomic Weight: 35.457
+Density: 2.2
+Diameter: 1.94
+Terrestrial Abundance: 314.0
+Coefficent of Resistance: -999.0
+
+Name:Carbon
+Symbol: C
+Order Number: 6
+R: 2
+C: 14
+Atomic Weight: 12.011
+Density: 3.52
+Diameter: 1.54
+Terrestrial Abundance: 320.0
+Coefficent of Resistance: -999.0
+
+Name:Sulfur
+Symbol: S
+Order Number: 16
+R: 3
+C: 16
+Atomic Weight: 32.066
+Density: 2.07
+Diameter: 2.12
+Terrestrial Abundance: 520.0
+Coefficent of Resistance: -999.0
+
+Name:Fluorine
+Symbol: F
+Order Number: 9
+R: 2
+C: 17
+Atomic Weight: 19.0
+Density: 1.5
+Diameter: 1.36
+Terrestrial Abundance: 900.0
+Coefficent of Resistance: -999.0
+
+Name:Manganese
+Symbol: Mn
+Order Number: 25
+R: 4
+C: 7
+Atomic Weight: 54.94
+Density: 7.3
+Diameter: 2.5
+Terrestrial Abundance: 1000.0
+Coefficent of Resistance: -999.0
+
+Name:Phosphorus
+Symbol: P
+Order Number: 15
+R: 3
+C: 15
+Atomic Weight: 30.975
+Density: 1.83
+Diameter: 2.16
+Terrestrial Abundance: 1180.0
+Coefficent of Resistance: -999.0
+
+Name:Hydrogen
+Symbol: H
+Order Number: 1
+R: 1
+C: 1
+Atomic Weight: 1.008
+Density: 0.763
+Diameter: 3.0
+Terrestrial Abundance: 1300.0
+Coefficent of Resistance: -999.0
+
+Name:Titanium
+Symbol: Ti
+Order Number: 22
+R: 4
+C: 4
+Atomic Weight: 47.9
+Density: 4.5
+Diameter: 2.93
+Terrestrial Abundance: 4400.0
+Coefficent of Resistance: 55.0
+
+Name:Magnesium
+Symbol: Mg
+Order Number: 12
+R: 3
+C: 2
+Atomic Weight: 24.32
+Density: 1.74
+Diameter: 3.2
+Terrestrial Abundance: 20900.0
+Coefficent of Resistance: 4.35
+
+Name:Potassium
+Symbol: K
+Order Number: 19
+R: 4
+C: 1
+Atomic Weight: 39.1
+Density: 0.87
+Diameter: 4.76
+Terrestrial Abundance: 25900.0
+Coefficent of Resistance: 6.1
+
+Name:Sodium
+Symbol: Na
+Order Number: 11
+R: 3
+C: 1
+Atomic Weight: 22.991
+Density: 0.9712
+Diameter: 3.83
+Terrestrial Abundance: 28300.0
+Coefficent of Resistance: -999.0
+
+Name:Calcium
+Symbol: Ca
+Order Number: 20
+R: 4
+C: 2
+Atomic Weight: 40.08
+Density: 1.55
+Diameter: 3.93
+Terrestrial Abundance: 36300.0
+Coefficent of Resistance: 4.59
+
+Name:Iron
+Symbol: Fe
+Order Number: 26
+R: 4
+C: 8
+Atomic Weight: 55.85
+Density: 7.86
+Diameter: 2.52
+Terrestrial Abundance: 50000.0
+Coefficent of Resistance: 8.85
+
+Name:Aluminum
+Symbol: Al
+Order Number: 13
+R: 3
+C: 13
+Atomic Weight: 26.98
+Density: 2.7
+Diameter: 2.82
+Terrestrial Abundance: 81300.0
+Coefficent of Resistance: 2.828
+
+Name:Silicon
+Symbol: Si
+Order Number: 14
+R: 3
+C: 14
+Atomic Weight: 28.09
+Density: 2.42
+Diameter: 2.34
+Terrestrial Abundance: 277200.0
+Coefficent of Resistance: -999.0
+
+Name:Oxygen
+Symbol: O
+Order Number: 8
+R: 2
+C: 16
+Atomic Weight: 16.0
+Density: 1.568
+Diameter: -999.0
+Terrestrial Abundance: 466000.0
+Coefficent of Resistance: -999.0
+
