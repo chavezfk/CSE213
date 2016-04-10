@@ -80,6 +80,20 @@ public class Element implements Comparable<Element>, Serializable{
 		this.terrestrialAbundance = terrestrialAbundance;
 		this.coefficentOfResistance = coefficentOfResistance;
 	}
+	
+	public String toString(){
+		String ret = "Name:" + this.name +"\n";
+		ret += "Symbol: " +this.symbol +"\n";
+		ret += "Order Number: " +this.orderNumber +"\n";
+		ret += "R: " +this.R +"\n";
+		ret += "C: " +this.C +"\n";
+		ret += "Atomic Weight: " +this.atomicWeight +"\n";
+		ret += "Density: " +this.density +"\n";
+		ret += "Diameter: " +this.diameter +"\n";
+		ret += "Terrestrial Abundance: " +this.terrestrialAbundance +"\n";
+		ret += "Coefficent of Resistance: " +this.coefficentOfResistance +"\n\n";
+		return ret;
+	}
 	/**
 	 * @return the name
 	 */
