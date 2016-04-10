@@ -13,6 +13,7 @@ import java.io.*;
  */
 public class KMLGenerator {
 	public static void main(String args[]) {
+		FileReader fr = null;
 		FileWriter fos = null;
 		PrintWriter pw = null;
 		int i = 1;
@@ -21,7 +22,6 @@ public class KMLGenerator {
 		String top = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://earth.google.com/kml/2.1\">\n<Document>\n   <name>Mystery Locations</name>\n";
 		String bot = "</Document>\n</kml>";
 		String write = null;
-		FileReader fr = null;
 		try {
 			fr = new FileReader(in);
 		} catch (FileNotFoundException e) {
