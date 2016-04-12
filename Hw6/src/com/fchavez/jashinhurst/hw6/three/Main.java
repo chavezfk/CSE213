@@ -8,7 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -76,7 +75,6 @@ public class Main {
 					pout.write(e.toString());
 				}
 			} catch (ClassNotFoundException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			pout.close();
@@ -84,6 +82,7 @@ public class Main {
 			oIn.close();
 			//fout.close();
 			//oout.close();
+			in.close();
 	}
 
 	private static void add(ArrayList<Element> elements, String read) {
