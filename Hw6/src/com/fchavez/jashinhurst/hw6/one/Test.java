@@ -74,7 +74,7 @@ public class Test {
 			write += "Frequency of Letters\n";
 			ArrayList<Double> let_freq = WordStatistics.charFrequency(words);
 			for (int i = 0; i < 26; i++) {
-				write += "\t" + AlphabetArray[i] + ": " + let_freq.get(i) + "%\n";
+				write += "\t" + AlphabetArray[i] + ": " + let_freq.get(i) + "\n";
 			}
 			write += "\nFrequency of Proper Names/Nouns: " + WordStatistics.properFrequency(words) + "%\n\n";
 			write += "Words Beginning with Letter\n";
