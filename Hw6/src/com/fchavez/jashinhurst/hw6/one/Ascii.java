@@ -1,4 +1,4 @@
-package com.fchavez.jashinhurst.hw6.one;
+package src.com.fchavez.jashinhurst.hw6.one;
 
 import java.io.*;
 
