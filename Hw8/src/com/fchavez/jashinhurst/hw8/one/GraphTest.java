@@ -1,6 +1,5 @@
 package com.fchavez.jashinhurst.hw8.one;
 
-import com.fchavez.jashinhurst.hw8.one.SearchBFS;
 public class GraphTest {
 
 	public static void main(String[] args) {
@@ -17,7 +16,22 @@ public class GraphTest {
 		// print out graph
 		System.out.println(G);
 
-		 SearchBFS.BFS(G,G.getVertex("A"));
+		//initialize colors
+		for (Vertex v : G.getVertices()) {
+			if(v.getName() == "A"){
+				v.color = Color.GRAY;
+				v.d = 0;
+				v.p = null;
+			}else{
+				v.color = Color.WHITE;
+				v.d = -1;
+				v.p = null;
+			}
+		}
+		
+		
+		
+		SearchBFS.BFS(G,G.getVertex("A"));
 		 
 		// print out graph again by iterating over vertices and edges
 		//this is equivalent to System.out.println(G);
