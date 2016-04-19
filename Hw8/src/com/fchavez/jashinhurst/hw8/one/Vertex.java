@@ -1,5 +1,6 @@
 package com.fchavez.jashinhurst.hw8.one;
 
+
 public class Vertex implements Comparable<Vertex> {
 
 	/**
@@ -7,12 +8,13 @@ public class Vertex implements Comparable<Vertex> {
 	 */
 	private String name;  
 
-	
+	Color color;
+	Vertex p;
+	int d;
 	
 	public Vertex(String v)
 	{
 		this.name = v;
-		
 	}
 
 	public String toString()
