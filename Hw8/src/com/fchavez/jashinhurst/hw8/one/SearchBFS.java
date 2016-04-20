@@ -1,10 +1,25 @@
 package com.fchavez.jashinhurst.hw8.one;
-
+/**
+ * <p>This class holds the Breadth first search pattern functions. 
+ * The first set takes two parameters which are the graph and the
+ * starting vertex. The second takes three parameters: the graph, 
+ * the Starting vertex, and the Ending vertex.</p>
+ * @author Franz Chavez
+ * @author Joshua Ashinhurst
+ * @version hw5 #1b
+ */
 public class SearchBFS {
+	/**
+	 * Do a Breadth First Search on the given graph starting at a given
+	 * vertex
+	 * @param G the graph to search
+	 * @param s the starting vertex
+	 * @return the queue of the order in which the verticies have been visited
+	 */
 	public static Queue<Vertex> BFS(Graph G, Vertex s){
 		//initialize colors
 		for (Vertex v : G.getVertices()) {
-			if(v.getName() == "A"){
+			if(v.getName() == s.getName()){
 				v.color = Color.GRAY;
 				v.d = 0;
 				v.p = null;
@@ -40,9 +55,17 @@ public class SearchBFS {
 		}
 		return rev;
 	}
+	/**
+	 * Do a Breadth First Search on the given graph starting at a given
+	 * vertex and ending at a given vertex
+	 * @param G the graph to search
+	 * @param s the starting vertex
+	 * @param end the ending vertex
+	 * @return the queue containing the order in which nodes were visited
+	 */
 	public static Queue<Vertex> BFS(Graph G, Vertex s, Vertex end){
 		for (Vertex v : G.getVertices()) {
-			if(v.getName() == "A"){
+			if(v.getName() == s.getName()){
 				v.color = Color.GRAY;
 				v.d = 0;
 				v.p = null;
@@ -69,7 +92,6 @@ public class SearchBFS {
 					visited.enque(v);
 					
 				}
-				if(v == end)break;
 			}
 			u.color = Color.BLACK;
 			if(u == end)break;

@@ -82,8 +82,8 @@ public class GraphTest {
 			System.out.println(", " + u.d + ", "+u.p+ ")");
 		}
 		//BFS start node C finish J
-		ret = SearchBFS.BFS(H,H.getVertex("C"), H.getVertex("J"));
-		System.out.println("BFS");
+		ret = SearchBFS.BFS(J,J.getVertex("C"), J.getVertex("J"));
+		System.out.println("BFS C - J");
 		while(ret.deque.size()>0){
 			u = ret.deque();
 			System.out.print(u.getName());
@@ -157,8 +157,8 @@ public class GraphTest {
 			G.addEdge("B", "E");
 			G.addEdge("B", "F");
 			G.addEdge("C", "D");
-			G.addEdge("D", "H");
 			G.addEdge("C", "G");
+			G.addEdge("D", "H");
 			G.addEdge("D", "E");
 			G.addEdge("D", "H");
 			G.addEdge("E", "F");
