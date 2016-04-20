@@ -21,9 +21,13 @@ public class GraphTest {
 		Graph H = graph(2);
 		Graph I = graph(3);
 		Graph J = graph(4);
-		//System.out.println(G);
+		System.out.println(G);
+		System.out.println(H);
+		System.out.println(I);
+		System.out.println(J);
 		
 		//Sample Graph Tests
+		System.out.println("Sample Graph");
 		Queue<Vertex> ret;
 		Vertex u;
 		ret = SearchBFS.BFS(G,G.getVertex("A"));
@@ -45,6 +49,7 @@ public class GraphTest {
 		}
 		
 		//Graph 1 Tests
+		System.out.println("Graph 1");
 		ret = SearchBFS.BFS(H,H.getVertex("A"));
 		System.out.println("BFS");
 		while(ret.deque.size()>0){
@@ -55,6 +60,7 @@ public class GraphTest {
 		}
 		
 		//Graph 2 Tests
+		System.out.println("Graph 2");
 		ArrayList<String> R = new ArrayList<String>();
 		System.out.println("DFS");
 		R = SearchDFS.DFS(I);
@@ -66,6 +72,7 @@ public class GraphTest {
 		
 		//Graph 3 Tests
 		//BFS at node D
+		System.out.println("Graph 3");
 		ret = SearchBFS.BFS(J,J.getVertex("D"));
 		System.out.println("BFS");
 		while(ret.deque.size()>0){
@@ -106,6 +113,11 @@ public class GraphTest {
 
 	}
 	
+	/**
+	 * initializers of graphs
+	 * @param i the graph sample to initialize
+	 * @return new graph
+	 */
 	public static Graph graph(int i) {
 		Graph G = new Graph();
 		switch (i) {
