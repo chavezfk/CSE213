@@ -14,7 +14,7 @@ public class GraphTest {
 		G.addVertex("H");
 
 		// print out graph
-		System.out.println(G);
+		//System.out.println(G);
 		
 		
 		Queue<Vertex> ret;
