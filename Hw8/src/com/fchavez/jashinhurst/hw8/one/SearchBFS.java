@@ -19,12 +19,13 @@ public class SearchBFS {
 		Queue<Vertex> visited = new Queue<Vertex>(G.numVertices());
 		Vertex u;
 		Q.enque(s);
+		visited.enque(s);
 		while(!Q.isEmpty()){
 			u = Q.deque();
 			for(Vertex v : G.adjacentTo(u)){
 				if( v.color == Color.WHITE){
 					v.color = Color.GRAY;
-					v.d = -1;
+					v.d = u.d + 1;
 					v.p = u;
 					Q.enque(v);
 					visited.enque(v);
@@ -38,5 +39,46 @@ public class SearchBFS {
 			rev.enque(visited.deque());
 		}
 		return rev;
+	}
+	public static Queue<Vertex> BFS(Graph G, Vertex s, Vertex end){
+		for (Vertex v : G.getVertices()) {
+			if(v.getName() == "A"){
+				v.color = Color.GRAY;
+				v.d = 0;
+				v.p = null;
+			}else{
+				v.color = Color.WHITE;
+				v.d = -1;
+				v.p = null;
+			}
+		}
+		
+		Queue<Vertex> Q = new Queue<Vertex>(G.numVertices());
+		Queue<Vertex> visited = new Queue<Vertex>(G.numVertices());
+		Vertex u;
+		Q.enque(s);
+		visited.enque(s);
+		while(!Q.isEmpty()){
+			u = Q.deque();
+			for(Vertex v : G.adjacentTo(u)){
+				if( v.color == Color.WHITE){
+					v.color = Color.GRAY;
+					v.d = u.d + 1;
+					v.p = u;
+					Q.enque(v);
+					visited.enque(v);
+					
+				}
+				if(v == end)break;
+			}
+			u.color = Color.BLACK;
+			if(u == end)break;
+		}
+		Queue<Vertex> rev = new Queue<Vertex>(visited.size());
+		while(visited.size() > 0){
+			rev.enque(visited.deque());
+		}
+		return rev;
+		
 	}
 }
