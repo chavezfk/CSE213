@@ -14,8 +14,8 @@ public class Queue<E> {
 	public void enque(E element){
 		this.deque.push(element);
 	}
-	public void deque(){
-		this.deque.poll();
+	public E deque(){
+		return this.deque.poll();
 	}
 	public boolean isEmpty(){
 		return this.deque.isEmpty();

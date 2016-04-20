@@ -16,23 +16,15 @@ public class GraphTest {
 		// print out graph
 		System.out.println(G);
 
-		//initialize colors
-		for (Vertex v : G.getVertices()) {
-			if(v.getName() == "A"){
-				v.color = Color.GRAY;
-				v.d = 0;
-				v.p = null;
-			}else{
-				v.color = Color.WHITE;
-				v.d = -1;
-				v.p = null;
-			}
+		
+		
+		Queue<Vertex> ret;
+		Vertex u;
+		ret = SearchBFS.BFS(G,G.getVertex("A"));
+		System.out.println("BFS");
+		while(ret.deque.size()>0){
+			printf()
 		}
-		
-		
-		
-		SearchBFS.BFS(G,G.getVertex("A"));
-		 
 		// print out graph again by iterating over vertices and edges
 		//this is equivalent to System.out.println(G);
 		for (Vertex v : G.getVertices()) {
