@@ -19,12 +19,13 @@ public class SearchBFS {
 		Queue<Vertex> visited = new Queue<Vertex>(G.numVertices());
 		Vertex u;
 		Q.enque(s);
+		visited.enque(s);
 		while(!Q.isEmpty()){
 			u = Q.deque();
 			for(Vertex v : G.adjacentTo(u)){
 				if( v.color == Color.WHITE){
 					v.color = Color.GRAY;
-					v.d = -1;
+					v.d = u.d + 1;
 					v.p = u;
 					Q.enque(v);
 					visited.enque(v);

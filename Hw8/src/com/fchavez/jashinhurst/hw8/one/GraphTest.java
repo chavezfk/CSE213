@@ -15,7 +15,6 @@ public class GraphTest {
 
 		// print out graph
 		System.out.println(G);
-
 		
 		
 		Queue<Vertex> ret;
@@ -23,7 +22,10 @@ public class GraphTest {
 		ret = SearchBFS.BFS(G,G.getVertex("A"));
 		System.out.println("BFS");
 		while(ret.deque.size()>0){
-			printf()
+			u = ret.deque();
+			System.out.print(u.getName());
+			System.out.print(" (" + u.color.name().toLowerCase());
+			System.out.println(", " + u.d + ", "+u.p+ ")");
 		}
 		// print out graph again by iterating over vertices and edges
 		//this is equivalent to System.out.println(G);
