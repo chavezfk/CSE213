@@ -9,18 +9,18 @@ public class UserGraph {
         UndirectedGraph<String, DefaultEdge> graph =
             new SimpleGraph<String, DefaultEdge>(DefaultEdge.class);
 
-        String a = "a";
-        String b = "b";
-        String c = "c";
-        String d = "d";
-        String e = "e";
-        String f = "f";
-        String g = "g";
-        String h = "h";
-        String i = "i";
-        String j = "j";
-        String k = "k";
-        String l = "l";
+        String a = "A";
+        String b = "B";
+        String c = "C";
+        String d = "D";
+        String e = "E";
+        String f = "F";
+        String g = "G";
+        String h = "H";
+        String i = "I";
+        String j = "J";
+        String k = "K";
+        String l = "L";
 
         // add the vertices
         graph.addVertex(a);
