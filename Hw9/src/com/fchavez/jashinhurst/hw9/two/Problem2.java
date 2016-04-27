@@ -7,28 +7,26 @@ import org.jgrapht.graph.SimpleWeightedGraph;
 public class Problem2 {
 	public static void main (String[] args){
 		SimpleWeightedGraph<String, DefaultEdge> graph = createGraph();
-		KruskalMinimumSpanningTree( MST = new Kruskal
 		
-		
-		
+		System.out.println(graph.toString());
 	}
 	
 	public static SimpleWeightedGraph<String, DefaultEdge> createGraph() {
         SimpleWeightedGraph<String, DefaultEdge> graph =
             new SimpleWeightedGraph<String, DefaultEdge>(DefaultEdge.class);
 
-        String a = "a";
-        String b = "b";
-        String c = "c";
-        String d = "d";
-        String e = "e";
-        String f = "f";
-        String g = "g";
-        String h = "h";
-        String i = "i";
-        String j = "j";
-        String k = "k";
-        String l = "l";
+        String a = "A";
+        String b = "B";
+        String c = "C";
+        String d = "D";
+        String e = "E";
+        String f = "F";
+        String g = "G";
+        String h = "H";
+        String i = "I";
+        String j = "J";
+        String k = "K";
+        String l = "L";
 
         // add the vertices
         graph.addVertex(a);
@@ -66,27 +64,27 @@ public class Problem2 {
         graph.addEdge(j, l);
         graph.addEdge(k, l);
         
-        graph.setEdgeWeight(graph.addEdge(a, b), 3);
-        graph.setEdgeWeight(graph.addEdge(a, b), 3);
-        graph.setEdgeWeight(graph.addEdge(a, c), 5);
-        graph.setEdgeWeight(graph.addEdge(a, d), 4);
-        graph.setEdgeWeight(graph.addEdge(b, e), 3);
-        graph.setEdgeWeight(graph.addEdge(b, f), 6);
-        graph.setEdgeWeight(graph.addEdge(c, d), 2);
-        graph.setEdgeWeight(graph.addEdge(c, g), 4);
-        graph.setEdgeWeight(graph.addEdge(d, h), 5);
-        graph.setEdgeWeight(graph.addEdge(d, e), 1);
-        graph.setEdgeWeight(graph.addEdge(e, i), 4);
-        graph.setEdgeWeight(graph.addEdge(e, f), 2);
-        graph.setEdgeWeight(graph.addEdge(f, j), 5);
-        graph.setEdgeWeight(graph.addEdge(g, k), 6);
-        graph.setEdgeWeight(graph.addEdge(g, h), 3);
-        graph.setEdgeWeight(graph.addEdge(h, i), 6);
-        graph.setEdgeWeight(graph.addEdge(h, k), 7);
-        graph.setEdgeWeight(graph.addEdge(i, l), 5);
-        graph.setEdgeWeight(graph.addEdge(i, j), 3);
-        graph.setEdgeWeight(graph.addEdge(j, l), 9);
-        graph.setEdgeWeight(graph.addEdge(k, l), 8);
+        graph.setEdgeWeight(graph.getEdge(a, b), 3);
+        graph.setEdgeWeight(graph.getEdge(a, b), 3);
+        graph.setEdgeWeight(graph.getEdge(a, c), 5);
+        graph.setEdgeWeight(graph.getEdge(a, d), 4);
+        graph.setEdgeWeight(graph.getEdge(b, e), 3);
+        graph.setEdgeWeight(graph.getEdge(b, f), 6);
+        graph.setEdgeWeight(graph.getEdge(c, d), 2);
+        graph.setEdgeWeight(graph.getEdge(c, g), 4);
+        graph.setEdgeWeight(graph.getEdge(d, h), 5);
+        graph.setEdgeWeight(graph.getEdge(d, e), 1);
+        graph.setEdgeWeight(graph.getEdge(e, i), 4);
+        graph.setEdgeWeight(graph.getEdge(e, f), 2);
+        graph.setEdgeWeight(graph.getEdge(f, j), 5);
+        graph.setEdgeWeight(graph.getEdge(g, k), 6);
+        graph.setEdgeWeight(graph.getEdge(g, h), 3);
+        graph.setEdgeWeight(graph.getEdge(h, i), 6);
+        graph.setEdgeWeight(graph.getEdge(h, k), 7);
+        graph.setEdgeWeight(graph.getEdge(i, l), 5);
+        graph.setEdgeWeight(graph.getEdge(i, j), 3);
+        graph.setEdgeWeight(graph.getEdge(j, l), 9);
+        graph.setEdgeWeight(graph.getEdge(k, l), 8);
 
         return graph;
 	}
