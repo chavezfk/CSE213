@@ -16,10 +16,18 @@ import com.fchavez.jashinhurst.hw9.graph.*;
 
 public class Problem1 {
 	public static void main (String[] args){
+		String ret;
 		UndirectedGraph<String, DefaultEdge> graph = UserGraph.createGraph();
 		BreadthFirstIterator<String, DefaultEdge> itr = new BreadthFirstIterator<String,DefaultEdge>(graph,"i");
 		while(itr.hasNext()){
-			System.out.println(itr.next());
+			ret = itr.next();
+			if(itr.hasNext()){
+				System.out.print(ret + " - ");
+			}
+			else{
+				System.out.println(ret);
+			}
+			
 		}
 	}
 }
