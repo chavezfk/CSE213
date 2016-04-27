@@ -11,13 +11,15 @@ import com.fchavez.jashinhurst.hw9.graph.*;
  * @author Franz Chavez
  * @author Joshua Ashinhurst
  * @version hw9 #1
+ * 
  */
 
 public class Problem1 {
 	public static void main (String[] args){
 		UndirectedGraph<String, DefaultEdge> graph = UserGraph.createGraph();
-		BreadthFirstIterator<String, DefaultEdge> itr = new BreadthFirstIterator<String,DefaultEdge>(graph);
-		
-		
+		BreadthFirstIterator<String, DefaultEdge> itr = new BreadthFirstIterator<String,DefaultEdge>(graph,"i");
+		while(itr.hasNext()){
+			System.out.println(itr.next());
+		}
 	}
 }
