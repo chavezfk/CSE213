@@ -1,10 +1,10 @@
 package com.fchavez.jashinhurst.hw9.graph;
 
-import org.jgrapht.UndirectedGraph;
-import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.*;
 import org.jgrapht.graph.SimpleGraph;
+import org.jgraph.graph.DefaultEdge;
 
-public class Graph {
+public class UserGraph {
 	public static UndirectedGraph<String, DefaultEdge> createGraph() {
         UndirectedGraph<String, DefaultEdge> graph =
             new SimpleGraph<String, DefaultEdge>(DefaultEdge.class);
