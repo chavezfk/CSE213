@@ -1,10 +1,22 @@
 package com.fchavez.jashinhurst.hw9.graph;
+/**
+ * class to create an undirected graph for use with testing of jgrapht methods
+ * @author Joshua Ashinhurst
+ * @author Franz Chavez
+ * @bugs none
+ * @todo none
+ * @version 1.0
+ */
 
 import org.jgrapht.*;
 import org.jgrapht.graph.SimpleGraph;
 import org.jgraph.graph.DefaultEdge;
 
 public class UserGraph {
+	/**
+	 * creates a replica of Graph 2 using an undirected graph
+	 * @return made graph
+	 */
 	public static UndirectedGraph<String, DefaultEdge> createGraph() {
         UndirectedGraph<String, DefaultEdge> graph =
             new SimpleGraph<String, DefaultEdge>(DefaultEdge.class);
