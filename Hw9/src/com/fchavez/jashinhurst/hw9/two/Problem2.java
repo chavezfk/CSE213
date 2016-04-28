@@ -14,7 +14,6 @@ import org.jgrapht.graph.SimpleWeightedGraph;
 import com.fchavez.jashinhurst.hw9.graph.*;
 
 public class Problem2 {
-	@SuppressWarnings("deprecation")
 	public static void main (String[] args){
 		SimpleWeightedGraph<String, DefaultWeightedEdge> graph = UserWeightedGraph.createGraph();
 		KruskalMinimumSpanningTree<String, DefaultWeightedEdge> t = new KruskalMinimumSpanningTree<String, DefaultWeightedEdge>(graph);
