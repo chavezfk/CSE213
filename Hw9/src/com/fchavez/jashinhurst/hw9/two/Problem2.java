@@ -8,7 +8,7 @@ public class Problem2 {
 	public static void main (String[] args){
 		SimpleWeightedGraph<String, DefaultEdge> graph = createGraph();
 		
-		System.out.println(graph.toString());
+		//System.out.println(graph.toString());
 	}
 	
 	public static SimpleWeightedGraph<String, DefaultEdge> createGraph() {
@@ -41,7 +41,7 @@ public class Problem2 {
         graph.addVertex(j);
         graph.addVertex(k);
         graph.addVertex(l);
-
+        
         // add edges to create a circuit
         graph.addEdge(a, b);
         graph.addEdge(a, c);

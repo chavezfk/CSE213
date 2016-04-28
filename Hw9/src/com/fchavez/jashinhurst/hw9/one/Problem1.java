@@ -18,7 +18,7 @@ public class Problem1 {
 	public static void main (String[] args){
 		String ret;
 		UndirectedGraph<String, DefaultEdge> graph = UserGraph.createGraph();
-		BreadthFirstIterator<String, DefaultEdge> itr = new BreadthFirstIterator<String,DefaultEdge>(graph,"i");
+		BreadthFirstIterator<String, DefaultEdge> itr = new BreadthFirstIterator<String,DefaultEdge>(graph,"I");
 		while(itr.hasNext()){
 			ret = itr.next();
 			if(itr.hasNext()){
