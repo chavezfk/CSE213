@@ -3,7 +3,6 @@ package com.fchavez.jashinhurst.hw9.five;
 import org.jgraph.graph.DefaultEdge;
 import org.jgrapht.UndirectedGraph;
 import org.jgrapht.alg.ChromaticNumber;
-import org.jgrapht.util.FibonacciHeapNode;
 
 import com.fchavez.jashinhurst.hw9.graph.UserGraph;;
 /**
